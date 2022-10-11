@@ -5,21 +5,61 @@
     <meta charset="UTF-8" />
     <Title> My page title</Title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <style>
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        h1{
+            width: 600px;
+            font-size: 40px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h4{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p{
+            width: 200px;
+            font-size: 18px;
+            color: rgb(7, 1, 14);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #gallery container {
+            display: inline-block;
+            font-size: 0;
+        }
+        .image-container{
+            display: inline-block;
+            vertical-align: top;
+        }
+        body{
+            background-color: blueviolet;
+
+        }
+    </style>
 </head>
 
 <body>
-    <h1>This is my cats</h1>
-    <p>Hello cuties</p>
-    <div>
-        <div>
-            <img src="/images/brothers.jpg" />
+    <h1>This are my cats</h1>
+    <h4>Hello cuties! </h4>
+    <div id="gallery-container">
+        <div class="image-container">
+            <img src="images/brothers.jpg" />
+            <p>Moreira's brothers are unique.</p>
         </div>
-        <div>
-            <img src="/images/green eyes.jpg" />
+
+        <div class="image-container">
+            <img src="images/green eyes.jpg" />
+            <p>My cute cat have beautiful eyes.</p>
         </div>
-        <div>
-            <img src="/images/lazy.jpg" />
+
+        <div class="image-container">
+            <img src="images/lazy.jpg" />
+            <p> She always tired!</p>
         </div>
+
     </div>
 </body>
 
